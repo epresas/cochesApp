@@ -1,0 +1,22 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Código</th>
+            <th>Marca</th>
+            <th>Modelo</th>
+            <th>Año</th>
+            <th>Color</th>
+            <th>Precio</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="coche in coches">
+            <td>{{coche.id}}</td>
+            <td>{{coche.marca}}</td>
+            <td>{{coche.modelo}}</td>
+            <td>{{coche.ano}}</td>
+            <td>{{coche.color}}</td>
+            <td>{{coche.precio | currency:"€ ":2}}</td>
+        </tr>
+    </tbody>
+</table>

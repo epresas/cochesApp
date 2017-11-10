@@ -1,0 +1,28 @@
+{
+	"coches": [
+			{
+				"id": 1,
+				"marca": "Fiat",
+				"modelo": "Uno",
+				"ano": "2010",
+				"color": "blanco",
+				"precio":10000
+			},
+			{
+				"id": 2,
+				"marca": "Dacia",
+				"modelo": "Sandero",
+				"ano": "2017",
+				"color": "azul",
+				"precio":10000
+		},
+		{
+			"id": 3,
+			"marca": "Renault",
+			"modelo": "Megane",
+			"ano": "2017",
+			"color": "negro",
+			"precio":10000
+	}
+	]
+}
