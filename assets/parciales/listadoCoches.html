@@ -1,22 +1,50 @@
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>Código</th>
-            <th>Marca</th>
-            <th>Modelo</th>
-            <th>Año</th>
-            <th>Color</th>
-            <th>Precio</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr ng-repeat="coche in coches">
-            <td>{{coche.id}}</td>
-            <td>{{coche.marca}}</td>
-            <td>{{coche.modelo}}</td>
-            <td>{{coche.ano}}</td>
-            <td>{{coche.color}}</td>
-            <td>{{coche.precio | currency:"€ ":2}}</td>
-        </tr>
-    </tbody>
-</table>
+<div class="row">
+
+         
+    <div class="col-md-4">
+        <label for="srchMarca">Marca: </label>
+        <input type="text" class="form-control" ng-model="search.marca" name="srchMarca" placeholder="Marca">
+    </div>
+         
+        
+    <div class="col-md-4">
+        <label for="srchMarca">Modelo: </label>
+        <input type="text" class="form-control" ng-model="search.modelo" name="srchModelo" placeholder="Modelo">
+    </div>
+        
+        
+    <div class="col-md-4">
+        <label for="srchMarca">Año: </label>
+        <input type="text" class="form-control" ng-model="search.ano" name="srchModelo" placeholder="Año">
+    </div>
+</div>    
+<br><br>
+ <div class="row">
+        
+        <table class="table table-striped" >
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Marca</th>
+                    <th>Modelo</th>
+                    <th>Año</th>
+                    <th>Color</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="coche in coches | filter: search | limitTo:position | limitTo : -5">
+                    <td>{{coche.id}}</td>
+                    <td>{{coche.marca}}</td>
+                    <td>{{coche.modelo}}</td>
+                    <td>{{coche.ano}}</td>
+                    <td>{{coche.color}}</td>
+                    <td>{{coche.precio | currency:"€ ":2}}</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <button class="btn btn-info" ng-click="prevList()">prev</button>&nbsp;&nbsp;  
+        <button class="btn btn-info" ng-click="nextList()">next</button> 
+ </div>
+    

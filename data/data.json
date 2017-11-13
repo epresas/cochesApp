@@ -15,14 +15,47 @@
 				"ano": "2017",
 				"color": "azul",
 				"precio":10000
-		},
-		{
-			"id": 3,
-			"marca": "Renault",
-			"modelo": "Megane",
-			"ano": "2017",
-			"color": "negro",
-			"precio":10000
-	}
-	]
+			},
+			{
+				"id": 3,
+				"marca": "Renault",
+				"modelo": "Megane",
+				"ano": "2017",
+				"color": "negro",
+				"precio":10000
+			},
+			{
+				"id": 4,
+				"marca": "Opel",
+				"modelo": "Astra",
+				"ano": "2017",
+				"color": "verde",
+				"precio":20000
+			},
+			{
+				"id": 5,
+				"marca": "Opel",
+				"modelo": "Mokka",
+				"ano": "2018",
+				"color": "beige",
+				"precio":25000
+			},
+			{
+				"id": 6,
+				"marca": "Ford",
+				"modelo": "Focus",
+				"ano": "2018",
+				"color": "negro",
+				"precio":17000
+			},
+			{
+				"id": 7,
+				"marca": "Renault",
+				"modelo": "Kadjar",
+				"ano": "2018",
+				"color": "azul",
+				"precio":15000
+			}
+			
+		]
 }
