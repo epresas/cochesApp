@@ -2,58 +2,72 @@
 	"coches": [
 			{
 				"id": 1,
+				"imagen":"assets/img/fiatUno_white.jpg",
 				"marca": "Fiat",
 				"modelo": "Uno",
 				"ano": "2010",
 				"color": "blanco",
+				"estado":"usado",
 				"precio":10000
 			},
 			{
 				"id": 2,
+				"imagen":"assets/img/sandero_blue.jpg",
 				"marca": "Dacia",
 				"modelo": "Sandero",
 				"ano": "2017",
 				"color": "azul",
+				"estado":"nuevo",
 				"precio":10000
 			},
 			{
 				"id": 3,
+				"imagen":"assets/img/megane_black.jpg",
 				"marca": "Renault",
 				"modelo": "Megane",
 				"ano": "2017",
 				"color": "negro",
+				"estado":"nuevo",
 				"precio":10000
 			},
 			{
 				"id": 4,
+				"imagen":"assets/img/astra_green.jpg",
 				"marca": "Opel",
 				"modelo": "Astra",
 				"ano": "2017",
 				"color": "verde",
+				"estado":"usado",
 				"precio":20000
 			},
 			{
 				"id": 5,
+				"imagen":"assets/img/mokka_yellow.jpg",
 				"marca": "Opel",
 				"modelo": "Mokka",
 				"ano": "2018",
-				"color": "beige",
+				"color": "amarillo",
+				"estado":"nuevo",
 				"precio":25000
 			},
 			{
 				"id": 6,
+				"imagen":"assets/img/focus_grey.jpg",
 				"marca": "Ford",
 				"modelo": "Focus",
 				"ano": "2018",
 				"color": "negro",
+				"estado":"nuevo",
 				"precio":17000
 			},
 			{
 				"id": 7,
+				"imagen":"assets/img/karjar_blue.jpg",
 				"marca": "Renault",
 				"modelo": "Kadjar",
 				"ano": "2018",
 				"color": "azul",
+				"estado":"nuevo",
 				"precio":15000
 			}
 			

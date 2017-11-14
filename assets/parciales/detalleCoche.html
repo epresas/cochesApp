@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="card w-75" >
+        <img class="card-img-top w-50 h-50" ng-src="{{coches[id-1].imagen}}" alt="coches[id-1].modelo">
+        <div class="card-block">
+            <h2 class="card-title text-center">{{coches[id-1].marca}} </h2>
+            <h4 class="card-subtitle text-center">{{coches[id-1].modelo}}</h4>
+            <p class="card-text text-center">Estado: {{coches[id-1].estado}}</p>
+            <p class="card-text text-center">Estado: {{coches[id-1].precio | currency:"€ ":2}}</p>
+            <a href="#!/listadoCoches" class="btn btn-primary">Volver</a>
+        </div>
+    </div>
+    <!-- <div class="col-md-4">
+        <img ng-src="{{coches[id-1].imagen}}" alt="" class="thumbnail"></div>
+    <div class="col-md-8"> 
+        <div class="list-group">
+            <div class="list-group-item list-group-item-action">Color: {{coches[id-1].color}}</div>
+            <div class="list-group-item list-group-item-action">Estado: {{coches[id-1].estado}}</div>
+            <div class="list-group-item list-group-item-action">Precio: {{coches[id-1].precio | currency:"€ ":2}}</div>
+        </div>
+    </div>
+  
+</div><br><br>
+<button class="btn btn-outline-success" ><i class="fa fa-angle-double-left" aria-hidden="true"></i> <a href="#!/listadoCoches">Volver</a>
+</button> -->
+</div>
